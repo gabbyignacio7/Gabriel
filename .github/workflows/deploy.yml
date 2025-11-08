@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [claude/deep-see-dashboard-build-011CUuiDinyBy7D147hRkcnH]
+    branches: [claude/hey-it-011CUutT4Vfd84VTPvQhht1T]
   workflow_dispatch:
 
 permissions:
