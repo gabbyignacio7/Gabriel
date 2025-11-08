@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { DataProvider, useData } from './context/DataContext';
 import { Header } from './components/common/Header';
 import { Sidebar } from './components/common/Sidebar';
@@ -35,7 +35,7 @@ const AppContent: React.FC = () => {
 
 function App() {
   return (
-    <Router basename="/Gabriel">
+    <Router>
       <DataProvider>
         <AppContent />
       </DataProvider>
