@@ -35,7 +35,7 @@ const AppContent: React.FC = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Gabriel">
       <DataProvider>
         <AppContent />
       </DataProvider>
